@@ -1,37 +1,45 @@
- Project Overview (Description)
-•	A complete AI-powered SaaS application built with the PERN stack:
-o	PostgreSQL, Express, React, Node.js
-•	Includes user authentication via Clerk, subscription billing, and multiple AI tools:
-o	Article generator
-o	Blog title creator
-o	Image generation & editing
-o	Resume analyzer
- Case Study | Research & Architecture
-1. Tech Stack & Purpose
-•	Front-end: React for UI components and state management.
-•	Back-end: Node.js with Express serving REST endpoints.
-•	Database: PostgreSQL to store user data, subscriptions, and generated AI content.
-•	Clerk: handles secure authentication and session management.
-•	Stripe or integrated billing system: manages subscription features.
-•	AI integration: Likely via OpenAI or other APIs called for tasks like content or image generation.
-•	Purpose: Deliver an end-to-end SaaS using AI features bundled into one app for real usage scenarios 
-2. User Flows & Business Logic
-•	User signup/login via Clerk.
-•	Subscription onboarding and billing flows after sign-up.
-•	Access to AI tools—like generating content or images—based on subscription tier.
-•	Front-end communicates with back-end API routes, which in turn call AI models.
+# 🤖 Quick-AI Application
 
-3. Key Development Phases
-•	Environment setup: Code repository initialized → React client, Express server, database integrated.
-•	Auth integration: Clerk components wired into UI; backend protects endpoints.
-•	Paid onboarding: Stripe (or equivalent) set up to capture billing and subscription states.
-•	AI tools: Routes implemented server-side to process AI tasks; React components for UI controls.
-•	Database design: Tables for users, subscriptions, AI tool logs, usage history. 
-4. Deployment
-•	Likely deployed as a full-stack app to cloud platforms (e.g., Vercel or Heroku) with environment variables for Clerk, billing, database, and AI keys.
-•	Continuous deployment pipeline from GitHub to production hosting.
-5. Results & Impact
-•	A fully functioning AI SaaS ready for real-world use.
-•	Scalable design—with modular tools and billing integrations.
-•	Quick MVP development leveraging standard stack and SaaS patterns.
+Quick-AI is a full-stack AI-powered web application that allows users to generate content, analyze inputs, and interact with advanced AI models in real-time. Built using modern technologies, it offers an intuitive interface and smart automation features.
 
+---
+
+## 🚀 Features
+
+- ✍️ AI-Powered Text Generation (e.g., essays, summaries, code)
+- 🔊 Text-to-Speech (TTS) and Speech-to-Text (STT)
+- 📁 Save and manage AI-generated creations
+- 🔐 Authentication and protected user routes
+- 📊 Dashboard to view user creations
+- 🌙 Dark & Light mode support
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend:
+- React.js
+- Tailwind CSS
+- Axios
+- React Router
+
+### Backend:
+- Node.js
+- Express.js
+- JWT Authentication
+
+### Database:
+- MongoDB (via Mongoose)
+
+### AI Integration:
+- OpenAI API (e.g., GPT-4 or GPT-3.5)
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Sohaib0786/Quick-ai-Application.git
+cd Quick-ai-Application
